@@ -1,0 +1,28 @@
+.ListItem {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.ListItem .value {
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 3rem;
+    padding-right: 1rem;
+}
+
+.ListItem .label {
+    flex: 1;
+}
+
+.ListItem .Progress {
+    margin-top: 0.5rem;
+}
+
+@media(max-width: 600px) {
+    .ListItem {
+        height: auto;
+        margin: 0.5rem;
+    }
+}

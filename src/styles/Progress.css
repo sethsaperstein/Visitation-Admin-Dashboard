@@ -1,0 +1,12 @@
+.Progress {
+    height: 5px;
+    width: 100%;
+    position: relative;
+}
+
+.Progress .inner {
+    position: absolute;
+    background-color: white;
+    height: 5px;
+    transition: width 1s;
+}
